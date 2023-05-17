@@ -47,8 +47,7 @@ for index,row in Data.iterrows():
 
     time.sleep(0.3)
 
-    if (count%1000)==0:
-
+    if (count%1000)==0: 
         
         f = open(f"sql{count}.txt", "w")
         f.write(allQuery)
